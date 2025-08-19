@@ -1,0 +1,9 @@
+print its inverted case of a given char using bitwise operators
+
+==> int main() {
+    char ch;
+    scanf("%c",&ch);
+    ch  ^= 32;
+    printf("%c",ch);
+    return 0;
+}
